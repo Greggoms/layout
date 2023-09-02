@@ -16,6 +16,9 @@ const config: Config = {
       gridTemplateRows: {
         layout: "min-content 1fr min-content",
       },
+      maxHeight: {
+        sidebar: "calc(100vh - 50px)", // h-screen minus header height
+      },
     },
     plugins: [],
   },
